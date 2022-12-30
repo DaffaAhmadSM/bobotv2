@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model ayah_connection {
+  id                       BigInt @id @default(autoincrement())
+  ayat                     Int
+  surah                    Int
+  random_string_connection String @db.VarChar(25)
+}

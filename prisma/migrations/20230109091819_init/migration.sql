@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE `ayah_connection` (
+CREATE TABLE `ayat_connection` (
     `id` BIGINT NOT NULL AUTO_INCREMENT,
     `ayat` INTEGER NOT NULL,
     `surah` INTEGER NOT NULL,

@@ -7,7 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model ayah_connection {
+model ayat_connection {
   id                       BigInt @id @default(autoincrement())
   ayat                     Int
   surah                    Int
